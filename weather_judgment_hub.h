@@ -15,6 +15,10 @@ public:
     explicit Weather_Judgment_Hub(QWidget *parent = 0);
     ~Weather_Judgment_Hub();
 
+private slots:
+    void valuechange(double value);
+
+
 private:
     Ui::Weather_Judgment_Hub *ui;
 };
